@@ -1,0 +1,154 @@
+[
+    {
+        "question" : "What is Laufey's full name",
+        "choice1" : "Laufey Elíasdóttir",
+        "choice2" : "Laufey Guðmundsdóttir",
+        "choice3" : "Laufey Ólafsdóttir",
+        "choice4" : "Laufey Jónsdóttir",
+        "answer" : 4
+
+    },
+    {
+        "question" : "Where is Laufey originally from?",
+        "choice1" : "Denmark",
+        "choice2" : "Sweden",
+        "choice3" : "Iceland",
+        "choice4" : "Norway",
+        "answer" : 3
+
+    },
+    {
+        "question" : "Who Is Laufey's Twin?",
+        "choice1" : "Junia",
+        "choice2" : "Maria",
+        "choice3" : "Kristín",
+        "choice4" : "Anna",
+        "answer" : 1
+
+    },
+    {
+        "question" : "In what year did Laufey release her debut EP, 'Typical of Me'?",
+        "choice1" : "2018",
+        "choice2" : "2019",
+        "choice3" : "2020",
+        "choice4" : "2021",
+        "answer" : 3
+
+    },
+    {
+        "question" : "Laufey often incorporates elements of which music genre into her music?",
+        "choice1" : "Jazz",
+        "choice2" : "Rock",
+        "choice3" : "Hip-hop",
+        "choice4" : "Reggae",
+        "answer" : 1
+
+    },
+    {
+        "question" : "What instrument does Laufey primarily play?",
+        "choice1" : "Guitar",
+        "choice2" : "Piano",
+        "choice3" : "Violin",
+        "choice4" : "Flute",
+        "answer" : 2
+
+    },
+    {
+        "question" : "Laufey's music often explores themes of:",
+        "choice1" : "Stalking",
+        "choice2" : "Violence",
+        "choice3" : "Love and heartbreak",
+        "choice4" : "Hope",
+        "answer" : 3
+
+    },
+    {
+        "question" : "Laufey gained widespread recognition for her cover of which iconic jazz standard?",
+        "choice1" :  "Autumn Leaves",
+        "choice2" : "My Funny Valentine",
+        "choice3" : "Summertime",
+        "choice4" : "Fly Me to the Moon",
+        "answer" : 4
+
+    },
+    {
+        "question": "Which of the following songs is NOT by Laufey?",
+        "choice1": "Street by Street",
+        "choice2": "A Night To Forget",
+        "choice3": "Goddess",
+        "choice4": "Misty",
+        "answer": 2
+    },
+    {
+        "question": "What is the title of Laufey's most popular original song?",
+        "choice1": "Goddess",
+        "choice2": "From The Start",
+        "choice3": "Valentine",
+        "choice4": "Promise",
+        "answer": 2
+    },
+    {
+        "question": "Which music award did Laufey win in 2021?",
+        "choice1": "Grammy Award",
+        "choice2": "MTV Europe Music Award",
+        "choice3": "BRIT Award",
+        "choice4": "Icelandic Music Award",
+        "answer": 1
+    },
+    {
+        "question": "What is the title of Laufey's latest single?",
+        "choice1": "Daydream",
+        "choice2": "Goddess",
+        "choice3": "Bewitched",
+        "choice4": "LoveSick",
+        "answer": 2
+    },
+    {
+        "question": "Which famous artist has Laufey cited as a major influence on her music?",
+        "choice1": "Beyoncé",
+        "choice2": "Frank Sinatra",
+        "choice3": "Fitzgerald",
+        "choice4": "Adele",
+        "answer": 3
+    },
+    {
+        "question": "What is Laufey's zodiac sign?",
+        "choice1": "Leo",
+        "choice2": "Scorpio",
+        "choice3": "Taurus",
+        "choice4": "Virgo",
+        "answer": 3
+    },
+    {
+        "question": "Which record label is Laufey signed to?",
+        "choice1": "Universal Music Group",
+        "choice2": "Warner Chappell Music",
+        "choice3": "Sony Music Entertainment",
+        "choice4": "Republic Records",
+        "answer": 2
+    },
+    {
+        "question": "Laufey preforms at which major music festival in 2024?",
+        "choice1": "Coachella",
+        "choice2": "Glastonbury",
+        "choice3": "Lollapalooza",
+        "choice4": "Bonnaroo",
+        "answer": 3
+    },
+    {
+        "question": "Which song did Laufey perform for her debut television appearance?",
+        "choice1": "Like The Movies",
+        "choice2": "Fly Me to the Moon",
+        "choice3": "Valentine",
+        "choice4": "From The Start",
+        "answer": 1
+    },
+    {
+        "question": "What is the title of Laufey's second studio album?",
+        "choice1": "Typical Of Me",
+        "choice2": "Bewitched",
+        "choice3": "A Night At The Symphony",
+        "choice4": "EIKAL",
+        "answer": 2
+    }
+]

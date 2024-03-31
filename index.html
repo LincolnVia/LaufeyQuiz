@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="app.css" />
+    <link rel="stylesheet" href="game.css" />
+</head>
+
+  <body> 
+        <div class="Menu">
+            <div id="offset">
+            <h1 class="Text-Menu">     Laufey  Quiz    </h1>
+            <br>
+            <a href='#container'><button class="button-84" role="button">Laufey History Quiz</button></a>
+            <a><button class="button-84" role="button">Start The Song Quiz</button></a>
+            <a href="#SongPreview"><button class="button-84" role="button">Song Previews</button></a><br>
+            </div>
+        </div>
+
+        <div class="container" id="container">
+          <div id="game" class="justify-center flex-column">
+            <div id="hud">
+              <div id="hud-item">
+                <p id="progressText" class="hud-prefix">
+                  Question
+                </p>
+                <div id="progressBar">
+                  <div id="progressBarFull"></div>
+                </div>
+              </div>
+              <div id="hud-item">
+                <p class="hud-prefix">
+                  Score
+                </p>
+                <h1 class="hud-main-text" id="score">
+                  0
+                </h1>
+              </div>
+            </div>
+            <h2 id="question">What is the answer to this questions?</h2>
+            <div class="choice-container">
+              <p class="choice-prefix">A</p>
+              <p class="choice-text" data-number="1">Choice 1</p>
+            </div>
+            <div class="choice-container">
+              <p class="choice-prefix">B</p>
+              <p class="choice-text" data-number="2">Choice 2</p>
+            </div>
+            <div class="choice-container">
+              <p class="choice-prefix">C</p>
+              <p class="choice-text" data-number="3">Choice 3</p>
+            </div>
+            <div class="choice-container">
+              <p class="choice-prefix">D</p>
+              <p class="choice-text" data-number="4">Choice 4</p>
+            </div>
+          </div>
+        </div>
+  <div class="SongPreview" id="SongPreview">
+    <div style="width: 50%; float:left">
+        <div class="SongList">
+                
+                <a onclick="selectSong(BestFriend)">Best Friend</a>
+                <a onclick="selectSong(Bewitched)">Bewitched</a>
+                <a onclick="selectSong(ChristmasDreaming)">Christmas Dreaming</a>
+                <a onclick="selectSong(DearSoulmate)">Dear Soulmate</a>
+               
+                <a onclick="selectSong(Dreamer)">Dreamer</a>
+                <a onclick="selectSong(EverythingIKnowAboutLove)">Everything I Know About Love</a>
+                <a onclick="selectSong(FallingBehind)">Falling Behind</a>
+                <a onclick="selectSong(Fragile)">Fragile</a>
+                
+                <a onclick="selectSong(FromTheStart)">From The Start</a>
+                <a onclick="selectSong(IWishULove)">I Wish U Love</a>
+                <a onclick="selectSong(Lettertomy13YearOldSelf)">Letter to my 13 Year Old Self</a>
+                <a onclick="selectSong(LikeTheMovies)">Like The Movies</a>
+                    
+                <a onclick="selectSong(LoveToKeepMeWarm)">Love To Keep Me Warm</a>
+                <a onclick="selectSong(LoveSick)">LoveSick</a>
+                <a onclick="selectSong(Magnolia)">Magnolia</a>
+                <a onclick="selectSong(_Promise)">Promise</a>
+                <a onclick="selectSong(SecondBest)">Second Best</a>
+                <a onclick="selectSong(StreetByStreet)">Street By Street</a>
+                <a onclick="selectSong(Valentine)">Valentine</a>
+        </div> 
+    </div>
+     <div style="width: 50%; float:right">
+        <div class="player">
+            <div class="imgBx">
+              <img src="/assets/Vitna.webp" alt="Luka Chuppi">
+            </div>
+            <audio controls autoplay>
+              <source src="">
+            </audio>
+          </div>
+     </div>
+     
+    
+    
+  
+     
+  </div>
+ 
+  <div style="background-color: black; color: white;">Credits: Website made by Lincoln Via | Music Made and Owned by Laufey, Quiz App made by @jamesqquick</div>
+
+
+</body>
+   
+<script src="game.js"></script>
+<script src="./index.js"></script>
+    
+</html>

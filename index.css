@@ -1,0 +1,207 @@
+
+/* CSS */
+* {
+  margin: 0;
+}
+html
+{
+  scroll-behavior: smooth;
+  scrollbar-width: none
+}
+body
+{background-color: #000;}
+
+
+.button-84 {
+  align-items: left;
+  background-color: white;
+  background-image: linear-gradient(#FFF);
+  border-radius: 10px;
+  border-width: 0;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .1),0 3px 6px rgba(0, 0, 0, .05);
+  box-sizing: border-box;
+  color: #000;
+  cursor: pointer;
+  display: inline-flex;
+  flex-direction: column;
+  font-family: expo-brand-demi,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 30px;
+  height: 74px;
+  justify-content: center;
+  line-height: 1;
+  margin: 0;
+  outline: none;
+  overflow: hidden;
+  padding: 0 32px;
+  text-align: left;
+  text-decoration: none;
+  transform: translate3d(0, 0, 0);
+  transition: all 150ms;
+  vertical-align:middle;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  -webkit-text-stroke: 1px black;
+  color: rgb(0, 0, 0);
+  text-shadow:
+      3px 3px 0 #ffffff,
+    -1px -1px 0 #ffffff,  
+     1px -1px 0 #ffffff,
+     -1px 1px 0 #ffffff,
+      1px 1px 0 #ffffff;
+      animation-duration: 0.75s;
+      animation-name: animate-pop;
+      animation-timing-function: cubic-bezier(.26, .53, .74, 1.48);
+    margin-right: 20px;
+    
+
+}
+.button-84:hover {
+  box-shadow: rgba(0, 1, 0, .2) 0 2px 8px;
+  opacity: .85;
+}
+.button-84:active {
+  outline: 0;
+}
+.button-84:focus {
+  box-shadow: rgba(0, 0, 0, .5) 0 0 0 3px;
+}
+@media (max-width: 420px) {
+  .button-84 {
+    height: 48px;
+  }
+}
+
+
+
+
+
+.Menu
+{
+  text-align: center;
+
+  font-size: 60px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  height: 100vh;
+  width: 100%;
+  display: block;
+  
+
+
+  background-image: url("./assets/image.png") ;
+  animation-name: none;
+  background-repeat: no-repeat;
+  background-size: cover;   
+}
+#offset
+{
+top: 30vh;
+
+position: relative;
+}
+.Text-Menu
+{
+  color: white;
+  outline: #25292e;
+  -webkit-text-stroke: 1px black;
+  color: white;
+  font-size: 20vh;
+  text-shadow:
+  3px 3px 0 #000,-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;
+  animation-duration: 0.75s;
+  animation-name: animate-pop;
+  animation-timing-function: cubic-bezier(.26, .53, .74, 1.48);
+}
+
+@keyframes animate-pop {
+  0% {
+    opacity: 0;
+    transform: scale(0.5, 0.5);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1.1, 1.1);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1, 1);
+  }
+}
+
+.SongPreview
+{
+ 
+  width: 100%;
+height: 100vh;
+animation-name: none;
+background-image: url("/assets/Preview.png");
+background-repeat: no-repeat;
+background-size: cover;   
+display: inline-block;
+overflow-y: hidden;
+}
+
+.SongList
+{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 5vh;
+  position: relative;
+  overflow-y: auto;
+  height: 100vh;
+  scrollbar-width:auto;
+}
+
+.SongList a {
+  background-color: #eee; /* Grey background color */
+  color: black; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+}
+.SongList a:hover {
+  background-color: #ccc; /* Dark grey background on mouse-over */
+}
+
+.SongList a.active {
+  background-color: #04AA6D; /* Add a green color to the "active/current" link */
+  color: white;
+}
+
+
+.player
+{
+  width: 63vh;
+  background: #fff;
+/*   margin: 100px; */
+  padding: 20px 14px 8px 14px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 10px 2px 90px -11px rgba(13,100,76,0.75);
+  -webkit-box-shadow: 10px 2px 90px -11px rgba(13,100,76,0.75);
+  -moz-box-shadow: 10px 2px 90px -11px rgba(13,100,76,0.75);
+  display: inline-block;
+  
+}
+
+.imgBx img
+{
+  width: 100%;
+  height: auto;
+  border: none;
+  border-radius: 10px;
+}
+
+.player audio
+{
+  width: 100%;
+  border-radius: 6px;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+
